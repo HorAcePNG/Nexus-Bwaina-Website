@@ -1,0 +1,61 @@
+[debug] [2025-06-23T09:25:45.865Z] ----------------------------------------------------------------------
+[debug] [2025-06-23T09:25:45.868Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-06-23T09:25:45.868Z] CLI Version:   14.8.0
+[debug] [2025-06-23T09:25:45.868Z] Platform:      win32
+[debug] [2025-06-23T09:25:45.868Z] Node Version:  v22.16.0
+[debug] [2025-06-23T09:25:45.869Z] Time:          Mon Jun 23 2025 19:25:45 GMT+1000 (Papua New Guinea Time)
+[debug] [2025-06-23T09:25:45.869Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-23T09:25:46.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-23T09:25:46.404Z] > authorizing via signed-in user (bwainaassociates@gmail.com)
+[debug] [2025-06-23T09:25:46.405Z] [iam] checking project nexusbwainawebsite for permissions ["firebase.projects.get"]
+[debug] [2025-06-23T09:25:46.408Z] Checked if tokens are valid: false, expires at: 1750657704843
+[debug] [2025-06-23T09:25:46.408Z] Checked if tokens are valid: false, expires at: 1750657704843
+[debug] [2025-06-23T09:25:46.409Z] > refreshing access token with scopes: []
+[debug] [2025-06-23T09:25:46.416Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-06-23T09:25:46.416Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-23T09:25:47.078Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-06-23T09:25:47.078Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-23T09:25:47.082Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite:testIamPermissions [none]
+[debug] [2025-06-23T09:25:47.083Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite:testIamPermissions x-goog-quota-user=projects/nexusbwainawebsite
+[debug] [2025-06-23T09:25:47.083Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-23T09:25:48.646Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite:testIamPermissions 200
+[debug] [2025-06-23T09:25:48.646Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-23T09:25:48.648Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:48.648Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:48.648Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexusbwainawebsite/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-06-23T09:25:48.648Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexusbwainawebsite/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/nexusbwainawebsite
+[debug] [2025-06-23T09:25:50.271Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexusbwainawebsite/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-06-23T09:25:50.272Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexusbwainawebsite/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-06-23T09:25:50.275Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:50.275Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:50.275Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite [none]
+[debug] [2025-06-23T09:25:50.617Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite 200
+[debug] [2025-06-23T09:25:50.617Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/nexusbwainawebsite {"projectNumber":"218817770867","projectId":"nexusbwainawebsite","lifecycleState":"ACTIVE","name":"nexusbwainawebsite","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-06-23T04:08:52.383214Z"}
+[info] 
+[info] === Serving from 'C:\Users\ADMIN\nexus-bwaina-website-app'...
+[info] 
+[debug] [2025-06-23T09:25:50.623Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:50.623Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:50.623Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nexusbwainawebsite/sites 
+[debug] [2025-06-23T09:25:53.224Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nexusbwainawebsite/sites 200
+[debug] [2025-06-23T09:25:53.224Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nexusbwainawebsite/sites {"sites":[{"name":"projects/nexusbwainawebsite/sites/nexusbwainawebsite","defaultUrl":"https://nexusbwainawebsite.web.app","appId":"1:218817770867:web:86a3991b4805720e550106","type":"DEFAULT_SITE"}]}
+[debug] [2025-06-23T09:25:53.225Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:53.225Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:53.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite/webApps/1:218817770867:web:86a3991b4805720e550106/config [none]
+[debug] [2025-06-23T09:25:54.150Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite/webApps/1:218817770867:web:86a3991b4805720e550106/config 200
+[debug] [2025-06-23T09:25:54.150Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite/webApps/1:218817770867:web:86a3991b4805720e550106/config {"projectId":"nexusbwainawebsite","appId":"1:218817770867:web:86a3991b4805720e550106","storageBucket":"nexusbwainawebsite.firebasestorage.app","apiKey":"AIzaSyBomSK2TVQNoofggIJMwDi5FB19UF2jWs8","authDomain":"nexusbwainawebsite.firebaseapp.com","messagingSenderId":"218817770867","measurementId":"G-N8RFX3PQHP"}
+[debug] [2025-06-23T09:25:54.157Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:54.157Z] Checked if tokens are valid: true, expires at: 1750674346078
+[debug] [2025-06-23T09:25:54.157Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite [none]
+[debug] [2025-06-23T09:25:55.694Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite 200
+[debug] [2025-06-23T09:25:55.694Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nexusbwainawebsite {"projectId":"nexusbwainawebsite","projectNumber":"218817770867","displayName":"nexusbwainawebsite","name":"projects/nexusbwainawebsite","resources":{"hostingSite":"nexusbwainawebsite"},"state":"ACTIVE","etag":"1_48d2d31b-7c5e-4438-98b9-159489087e30"}
+[info] i  hosting[nexusbwainawebsite]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[nexusbwainawebsite]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:20 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:20 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:20 +0000] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 337 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:20 +0000] \"GET /static/css/main.e6c13ad2.css HTTP/1.1\" 200 337 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:20 +0000] "GET /static/js/main.09b90a7f.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:20 +0000] \"GET /static/js/main.09b90a7f.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:20 +0000] "GET /Circular_framed_logo-removebg-preview.png HTTP/1.1" 200 178774 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:20 +0000] \"GET /Circular_framed_logo-removebg-preview.png HTTP/1.1\" 200 178774 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:21 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:21 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:21 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:21 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
+[info] i  hosting: ::1 - - [23/Jun/2025:09:26:21 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [23/Jun/2025:09:26:21 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0\""}}
